@@ -1,0 +1,24 @@
+<div class="my-2">
+      
+    <div class="alert alert-success" role="alert">marks : {{total_marks}}/{{total_questions}}</div>
+    <div class="alert"
+         [class.alert-success]='correct_answer' 
+         [class.alert-danger]='!correct_answer'
+         role="alert"
+    >
+      {{correct_or_wrong_answer_msg}}
+    </div>
+    
+
+  <div class="div my-2">
+    <app-question-with-answers [question]="getQuestion()" [selectedOption]="getSelectedAnswer()" [correctOption]="getAnswer()"></app-question-with-answers>
+    <div class="options">
+      <button (click)="endReview()" class="btn ctm-bg py-2 mx-2">
+        end review
+      </button>
+      <button (click)="getNextQuestion()" class="btn ctm-bg py-2" [disabled]="!isNotLastQuestion()">
+        next
+      </button>
+    </div>
+  </div>
+</div>

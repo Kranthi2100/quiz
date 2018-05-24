@@ -1,0 +1,19 @@
+<div>
+    <table class="table">
+      <thead>
+          <th>
+            {{question.q}}
+          </th>
+      </thead>
+      <tbody>
+        <tr
+        *ngFor = 'let option of question.o; let i = index'
+        [class.selected] = 'i === selectedOption'
+        (click) = 'selectOption(i)'
+        >
+          <td>{{option}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,14 @@
+.selected{
+  border: 2px solid green;
+  font-weight: 500;
+}
+
+th{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 2em;
+}
+
+tr{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4em;
+}

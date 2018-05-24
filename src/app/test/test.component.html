@@ -1,0 +1,22 @@
+<div class="div my-4">
+  <app-question 
+    [question]="getQuestion()"
+    (onSelectOption)="onSelectOption($event)"  
+    [selectedOption]="getSelectedOption()"
+  ></app-question>
+  <div class="options">
+    <button 
+      (click)="endTest()"
+      class="btn ctm-bg py-2 mx-2"
+    >
+      endTest
+    </button>
+    <button 
+      (click)="getNextQuestion()"
+      class="btn ctm-bg py-2"
+      [disabled] = "!isNotLastQuestion()"
+    >
+      next
+    </button>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.selected{
+  background-color: red;
+  border-top: 6px solid white;
+  font-weight: 800;
+  color: white;
+}
+.correct{
+  border-top: 6px solid white!important; 
+  background-color: green !important;
+  font-weight: 800;
+  color: white;
+}
+
+th{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 2em;
+}
+
+tr{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4em;
+}

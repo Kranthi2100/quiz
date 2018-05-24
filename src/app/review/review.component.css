@@ -1,0 +1,23 @@
+button{
+  padding: 0px 50px 0px 50px;
+  color: white;
+}
+
+.ctm-bg{
+  background-color: #570c50;
+}
+
+.options{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3%;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+.table .review{
+  border: 2px solid green;
+}
