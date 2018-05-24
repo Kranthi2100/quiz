@@ -1,4 +1,4 @@
-# QuizApp
+# QuizApp https://kranthi2100.github.io/quiz/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
